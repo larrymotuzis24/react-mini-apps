@@ -1,6 +1,7 @@
 
 import './App.css';
-import Counter from './Components/Counter';
+// import Counter from './Components/Counter';
+import TempControl from './Components/TempControl';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       border:'solid black 2px',
       padding:'10px'
     }}>
-        <Counter />
+        <TempControl />
       </div>
 
     </div>
